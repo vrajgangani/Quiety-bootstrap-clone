@@ -1,38 +1,183 @@
-.App {
+/* Navabar css */
+
+.custom-navbar{
+  background-color:white;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+}
+.nav-link{
+  font-family: 'Poppins', sans-serif;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-link:hover{
+  color: #175cff!important;
+  transition: 0.5s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* home page */
+
+.main1{
+  background: rgb(9,2,107);
+  background: linear-gradient(90deg, rgba(9,2,107,1) 35%, rgba(14,66,142,1) 97%);
+}
+.watch-demo{
+  cursor: pointer;
+  transition: 1s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* comapny-features */
+
+.feature-icon{
+  display: flex ;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.feature-service-1{
+  background-color: #f2576733;
+  position: relative;
+  height: 290px;
+}
+.feature-service-2{
+  background-color: #175cff33;
+  position: relative;
+  height: 290px;
+}
+.product-img-1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 191px;
+}
+.product-img-2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 191px;
+}
+@media screen and (max-width:991px) {
+  .product-img-1{
+    display:none;
+  }
+  .product-img-2{
+    display:none;
+  } 
+}
+@media screen and (max-width:768px) {
+  .feature-service-1{
+    height: 200px;
+  }
+  .feature-service-2{
+    height: 200px;
+  }
+  
+}
+@media screen and (max-width:375px) and (min-width:279px){
+  .feature-service-1{
+    height: 240px;
+  }
+  .feature-service-2{
+    height: 240px;
+  }
+  
 }
 
-.App-link {
-  color: #61dafb;
+/* clinet review page */
+.colon-img1{
+  height: 65px !important;
+}
+@media screen and (max-width:768px) {
+  .colon-img1{
+    height: 45px !important;
+  }
+  
+}
+.custom-client-img{
+  position: relative;
+}
+.watch-video{
+  position: absolute;
+  left: 120px;
+  bottom: 140px;
+  z-index:3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+/* company work preocess */
+.icon1,.icon2,.icon3,.icon4{
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 50px;
+  width: 70px;
+  font-size: 1.6rem;
+  color: gray;
+}
+
+/* pricing */
+
+.plan-facilities>li::marker{
+  color: #175cff;
+  font-size: 1.5rem;
+
+}
+.plan-facilities-advanced>li::marker{
+  color: #ffc107;
+  font-size: 1.5rem;
+
+}
+
+/* Integration */
+.outer-integration{
+  /* display: flex; */
+  flex-direction:column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* .div-1,.div-2{
+  display: flex;
+} */
+
+@media screen and (min-width:968px){
+  .outer-integration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+/* .div-1{
+  position: relative;
+} */
+.l1{
+  position:absolute;
+  left: 0; 
+  top: 0;
+}
+.l2{
+  position:absolute;
+  left: 0; 
+  top: 2;
+}
+.l3{
+  position:absolute;
+  left: 2; 
+  top: 3;
+}
+.l4{
+  position:absolute;
+  left: 3; 
+  top: 4;
+}
+.l5{
+  position:absolute;
+  left: 1; 
+  top: 5;
+}
+.l6{
+  position:absolute;
+  left: 3; 
+  top: 6;
+}
 }
