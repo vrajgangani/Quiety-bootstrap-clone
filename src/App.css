@@ -131,8 +131,7 @@
 
 /* Integration */
 .outer-integration{
-  /* display: flex; */
-  flex-direction:column;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -142,14 +141,7 @@
 } */
 
 @media screen and (min-width:968px){
-  .outer-integration{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-/* .div-1{
-  position: relative;
-} */
+
 .l1{
   position:absolute;
   left: 0; 

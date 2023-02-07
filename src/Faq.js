@@ -5,7 +5,7 @@ export const Faq = () => {
   return (
     <section
       style={{
-        padding: "80px 10px",
+        padding: "80px 10px 30px 10px",
         backgroundColor: "white",
       }}
       className=""

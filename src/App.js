@@ -4,6 +4,7 @@ import { ClientReview } from './ClientReview';
 import { CompanyWork } from './CompanyWork';
 import { Faq } from './Faq.js';
 import { FeaturesPage } from './FeaturesPage';
+import { FreeTrial } from './FreeTrial';
 import { Home } from './Home';
 import { Integration } from './Integration';
 import { Naavbar } from './Naavbar';
@@ -21,8 +22,7 @@ function App() {
       <WorkProcess />
       <Pricing />
       <Faq />
-      <Integration/>
-      
+      <FreeTrial/>
     </>
   );
 }
